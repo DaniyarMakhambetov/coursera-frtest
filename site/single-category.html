@@ -31,7 +31,7 @@
 				</div>
 				<div id="collapsable-nav" class="collapse navbar-collapse">
 				<ul id="nav-list" class="nav navbar-nav navbar-right">
-					<li>
+					<li class="active">
 						<a href="menu-categories.html">
 							<span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Menu</a>
 					</li>
@@ -64,25 +64,43 @@
 	<!-----END OF call btn------->
 
 	<div id="main-content" class="container">
-		<div class="jumbotron">
-			<img src="images/coffee-beans.jpg" alt="Picture of restaraunt" class="img-responsive visible-xs">
-		</div>
-		<div class="row" id="home-tiles">
-			<div class="col-md-4 col-sm-6 col-xs-12">
-				<a href="menu-categories.html"><div id="menu-tile"><span>menu</span></div></a>
-			</div>
-			<div class="col-md-4 col-sm-6 col-xs-12">
-				<a href="single-category.html"><div id="specials-tile"><span>specials</span></div></a>
-			</div>
-			<div class="col-md-4 col-sm-12 col-xs-12">
-				<a href="https://goo.gl/maps/Up9maHtKikQ5Uixr8" target="_blank">
-					<div id="map-tile">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8062.449620137404!2d76.940340640514!3d43.25306058881346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836fbf0ae9e631%3A0xbc762db17eaaf38!2sUnited%20Coffee!5e0!3m2!1sru!2skz!4v1605461654773!5m2!1sru!2skz" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-						<span>map</span>
+		<h2 id="menu-categories-title" class="text-center">Lunch Menu</h2>
+		<div class="text-center">Lunch is not served until after 1pm.</div>
+		<section class="row">
+			<hr class="visible-xs">
+			<div class="menu-item-tile col-md-6">
+				<div class="row">
+					<div class="col-sm-5">
+						<div class="menu-item-photo">
+							<div>D01</div>
+							<img class="img-responsive" width="250" height="150" src="images/lunch.jpg"  alt="Item">
+						</div>
+						<div class="menu-item-price">$10.95<span>(pint)</span>$14.95<span>(quart)</span></div>
 					</div>
-				</a>
+					<div class="menu-item-description col-sm-7">
+						<h3 class="menu-item-title">Veal with mixed Vegetables</h3>
+						<p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+				</div>
+				<hr class="visible-xs">
 			</div>
-		</div> <!-------end of #home tiles------------>
+			<div class="menu-item-tile col-md-6">
+				<div class="row">
+					<div class="col-sm-5">
+						<div class="menu-item-photo">
+							<div>D01</div>
+							<img src="images/lunch.jpg" class="img-responsive" width="250" height="150" alt="Item">
+						</div>
+						<div class="menu-item-price">$10.95<span>(pint)</span>$14.95<span>(quart)</span></div>
+					</div>
+					<div class="menu-item-description col-sm-7">
+						<h3 class="menu-item-title">Veal with mixed Vegetables</h3>
+						<p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+				</div>
+				<hr class="visible-xs">
+			</div>
+		</section>
 	</div> <!-----------END OF #MAIN-CONTENT------------>
 	<footer class="panel-footer">
 		<div class="container">

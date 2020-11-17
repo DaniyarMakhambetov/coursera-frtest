@@ -1,0 +1,291 @@
+body{
+	font-size: 16px;
+	background-color: #FBD7D0;
+	font-family:'Poppins', sans-serif;  
+}
+/* header */
+#header-nav{
+	background-color: white;
+	border-radius: 0;
+	border: 0;
+}
+.logo-img{
+	text-align: center;
+	width: 100px;
+	height: 100px;
+}
+#pic{
+	width: 80px;
+	height: 80px;
+	margin: 10px 10px;
+}
+.navbar-brand h1{
+	text-shadow: 1px 1px;
+	margin: 10px 20px 0px 20px;
+	color: blue;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand p{
+	margin: 10px 20px 0px 20px;
+}
+#nav-list{
+	margin-top: 30px;
+}
+#phone a{
+	text-align: right;
+	padding-bottom: 0;
+}
+#phone div{
+	text-align: right;
+	padding-right: 15px;
+}
+#nav-list a{
+	text-align: right;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid blue;
+}
+.navbar-header button.navbar-toggle{
+	clear:both;
+	margin-top: -30px;
+}
+/*END HEADER*/
+
+/*home page*/
+.container .jumbotron{
+	box-shadow: 0 0 5px blue;
+	border: 2px solid;
+}
+
+#menu-tile, #specials-tile, #map-tile{
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid;
+	overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover{
+	box-shadow: 0 1px 5px 1px;
+}
+#menu-tile{
+	background: url('../images/menu.jpg') no-repeat center;
+	background-size: 120%;
+}
+#specials-tile{
+	background: url('../images/speacials.jpg') no-repeat center;
+	background-size: 120%;
+}
+#menu-tile span, #specials-tile span, #map-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+/*responsive*/
+/* END MAIN */
+
+/*START FOOTER*/
+.panel-footer{
+	background-color: #3C3C3C;
+	color: white;
+}
+.panel-footer div.row{
+	margin-bottom: 35px; 
+}
+#hours span, #address span{
+	font-size: 1.3em;
+	font-style: italic;
+	margin-left: 20px;
+}
+#address p{
+	color: #EEBCBC;
+	font-size: 0.7em;
+	line-height: 1.8;
+}
+/* END FOOTER */
+
+
+/*CATEGORY TILES*/
+.category-tile{
+	position: relative;
+	border: 2px solid black;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 15px;
+}
+.category-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: #916706;
+	color: #000;
+	opacity: .8; 
+}
+.category-tile:hover{
+	box-shadow: 0 5px 5px 5px #cccccc;
+}
+#menu-categories-title + div{
+	margin-bottom: 50px; 
+}
+
+/* END MENU CATEGORIES PAGE */
+.menu-item-photo{
+	position: relative;
+	border: 2px solid;
+	margin-left: auto;
+	padding: 0;
+	background: black;
+	margin-bottom: 20px;
+	max-width: 250px; 
+}
+.menu-item-photo div{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 80px;
+	background: #557c3e;
+	text-align: center;
+}
+
+.menu-item-price{
+	text-align:right;
+	font-size: 1.2em; 
+	padding-bottom: 20px; 
+}
+.menu-item-tile .menu-item-price span{
+	font-size: .5em;
+}
+.menu-item-description{
+	padding-right: 30;
+}
+h3.menu-item-title{
+	margin:0 0 10px;
+	font-size: 1.4em;
+}
+.menu-item-details{
+	font-size: .9em;
+	font-style: italic; 
+}
+.text-center{
+	padding-bottom: 20px; 
+}
+/********************************************************* MEDIA QUERIES ***************************************************************/
+@media (min-width: 1200px){
+	.container .jumbotron{
+		background: url('../images/coffee-beans.jpg') no-repeat center;
+		background-size: 1200px;
+		height: 450px;
+		box-shadow: 0 0 5px blue;
+		border: 2px solid; 
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	.container .jumbotron{
+		background: url('../images/coffee-beans.jpg') no-repeat center;
+		background-size: 1200px;
+		height: 450px;
+		box-shadow: 0 0 5px blue;
+		border: 2px solid;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.container .jumbotron{
+		background: url('../images/coffee-beans.jpg') no-repeat center;
+		background-size: 1200px;
+		height: 350px;
+		box-shadow: 0 0 5px blue;
+		border: 2px solid; 
+	}
+}
+
+@media (max-width: 767px){
+	.navbar-brand{
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1{
+		padding-top: 10px;
+		font-size: 6vw;
+		margin-top: -10px;
+	}
+	.navbar-brand p{
+		text-transform: uppercase;
+		font-size: .6em;
+	}
+	#collapsable-nav a{
+		font-size: 1.1em;
+		margin-top: -10px;
+	}
+	#collapsable-nav a span{
+		font-size: 1em;
+		margin-right: 7px;
+	}
+	#call-btn > a{
+		display: block;
+		font-size: 1.5em;
+		margin: 0 20px;
+		padding: 10px;
+		border: 2px solid #fff;
+		background-color: pink;
+		color: blue;
+		text-decoration:none;
+		text-align: center;
+	}
+	#xs-deliver{
+		margin-top: 5px;
+		font-size: .7em;
+		letter-spacing: .1em;
+		text-transform: uppercase;
+	}
+	.container .jumbotron{
+		margin-top: 30px;
+		padding: 0;
+		box-shadow: 0 0 5px blue;
+		border: 2px solid;
+	}
+	.panel-footer section{
+		margin-bottom: 30px;
+		text-align: center;
+
+	}	
+	.panel-footer section hr{
+		width: 70%;
+	}
+	.menu-item-photo{
+		background: red;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.menu-item-tile{
+		text-align: center;
+	}
+	.menu-item-price{
+		text-align:center;
+	}
+}
+@media (max-width: 479px){
+	.col-xxs-12{
+		position: relative;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+		float: left;
+		width: 100%; 
+	}
+}
