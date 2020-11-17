@@ -71,11 +71,11 @@ body{
 	box-shadow: 0 1px 5px 1px;
 }
 #menu-tile{
-	background: url('../images/menu.jpg') no-repeat center;
+	background: url(images/menu.jpg) no-repeat center;
 	background-size: 120%;
 }
 #specials-tile{
-	background: url('../images/speacials.jpg') no-repeat center;
+	background: url(images/speacials.jpg) no-repeat center;
 	background-size: 120%;
 }
 #menu-tile span, #specials-tile span, #map-tile span{
@@ -186,27 +186,30 @@ h3.menu-item-title{
 /********************************************************* MEDIA QUERIES ***************************************************************/
 @media (min-width: 1200px){
 	.container .jumbotron{
-		background: url('../images/coffee-beans.jpg') no-repeat center;
-		background-size: 1200px;
+		background: url(images/coffee-beans.jpg) no-repeat center;		
 		height: 450px;
 		box-shadow: 0 0 5px blue;
 		border: 2px solid; 
+		margin-top: 30px;
 	}
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
 	.container .jumbotron{
-		background: url('../images/coffee-beans.jpg') no-repeat center;
+		background: url(images/coffee-beans.jpg) no-repeat center;
 		background-size: 1200px;
 		height: 450px;
 		box-shadow: 0 0 5px blue;
 		border: 2px solid;
 	}
+	#menu-tile, #specials-tile{
+		background-size: 150%; 
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px){
 	.container .jumbotron{
-		background: url('../images/coffee-beans.jpg') no-repeat center;
+		background: url(images/coffee-beans.jpg) no-repeat center;
 		background-size: 1200px;
 		height: 350px;
 		box-shadow: 0 0 5px blue;
