@@ -1,6 +1,6 @@
 body{
 	font-size: 16px;
-	background-color: #FBD7D0;
+	background-color: #32D2CC;
 	font-family:'Poppins', sans-serif;  
 }
 /* header */
@@ -107,7 +107,7 @@ body{
 	margin-left: 20px;
 }
 #address p{
-	color: #EEBCBC;
+	color: #32D2CC;
 	font-size: 0.7em;
 	line-height: 1.8;
 }
@@ -188,6 +188,7 @@ h3.menu-item-title{
 	.container .jumbotron{
 		background: url(images/coffee-beans.jpg) no-repeat center;		
 		height: 450px;
+		background-size: 1200px;
 		box-shadow: 0 0 5px blue;
 		border: 2px solid; 
 		margin-top: 30px;
@@ -245,7 +246,7 @@ h3.menu-item-title{
 		margin: 0 20px;
 		padding: 10px;
 		border: 2px solid #fff;
-		background-color: pink;
+		background-color: #32D2CC;
 		color: blue;
 		text-decoration:none;
 		text-align: center;
